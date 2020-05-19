@@ -200,28 +200,22 @@ nav ul li a {
 .hidden {
   display: none;
 }
-
-.title1 {
-  padding-top: 10vh;
-  align-items: center;
-  display: flex;
-  padding-right: 10vw;
-  padding-left: 20vw;
+/* content */
+.spacer {
+  padding-top: 20vh;
 }
-.img {
-  width: 50vw;
-}
-.content {
+/* footer */
+footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  overflow: hidden;
+  background-color: #f8fafa;
   width: 100%;
+
+  justify-content: space-around;
 }
-.footer {
-  background-color: darkgray;
-  display: flex;
-  padding-left: 40vw;
+.footer-info {
+  padding-top: 10px;
+  justify-content: center;
   align-items: center;
-  font-size: 1vw;
-  color: white;
 }
