@@ -204,6 +204,15 @@ nav ul li a {
 .spacer {
   padding-top: 20vh;
 }
+.txtblerb {
+  display: flex;
+  padding-left: 15vw;
+  padding-right: 15vw;
+
+  padding-bottom: 5vw;
+  justify-content: center;
+  align-items: center;
+}
 /* footer */
 footer {
   display: flex;
