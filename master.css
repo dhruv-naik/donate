@@ -211,7 +211,8 @@ footer {
   overflow: hidden;
   background-color: #f8fafa;
   width: 100%;
-
+  position: fixed;
+  bottom: 0px;
   justify-content: space-around;
 }
 .footer-info {
